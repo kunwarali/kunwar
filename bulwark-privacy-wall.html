@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Privacy Protection Tool- Privacy Wall Tool Download</title>
+<meta name="keywords" content="Privacy Wall Tool Download, Privacy Protection Tool" />
+<meta name="description" content="Download BulwarkLabs, a Privacy Protection Tool for internet privacy and security. This Privacy Wall Tool protects your identity and data online." />
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
+ 
+<link href="css/animate.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/cart.js" type="text/jscript"></script>
+
+<!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/ie8.css" media="screen" />
+  <![endif]-->
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+<script>
+$(document).ready(function(){
+	$('.add-to-cart').on('click',function(){
+		var itemImg = $(this).parent().parent().parent().parent().parent().find('img').eq(0);
+		flyToElement($(itemImg), $('.shopping-cart'));
+		cartValue=parseInt($('.badge')())+1;
+		$('.badge')(cartValue);
+	});
+});
+
+function flyToElement(flyer, flyingTo) {
+	var $func = $(this);
+	var divider = 3;
+	var flyerClone = $(flyer).clone();
+	$(flyerClone).css({position: 'absolute',height:200+"px",width:150+"px", top: $(flyer).offset().top + "px", left: $(flyer).offset().left + "px", opacity: 1, 'z-index': 100000});
+	$('body').append($(flyerClone));
+	var gotoX = $(flyingTo).offset().left + ($(flyingTo).width() / 2) - ($(flyer).width()/divider)/2;
+	var gotoY = $(flyingTo).offset().top + ($(flyingTo).height() / 2) - ($(flyer).height()/divider)/2;
+	 
+	$(flyerClone).animate({
+		opacity: 0.4,
+		left: gotoX,
+		top: gotoY,
+		width: $(flyer).width()/divider,
+		height: $(flyer).height()/divider
+	}, 1000,
+	function () {
+		$(flyingTo).fadeOut('fast', function () {
+			$(flyingTo).fadeIn('fast', function () {
+				$(flyerClone).fadeOut('fast', function () {
+					$(flyerClone).remove();
+				});
+			});
+		});
+	});
+	 
+}
+</script>
+</head>
+
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79157118-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container" id="headertop">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logot"></a> </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li ><a href="#"  id="dropdownMenu3"  class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" >Products <span class="caret"></span> </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+              <li ><a href="bulwark-antivirus.html"> Bulwark Antivirus</a></li>
+              <li><a href="bulwark-anti-malware.html"> Bulwark  Anti-Malware</a></li>
+              <li class="active"><a href="bulwark-privacy-wall.html"> Bulwark  Privacy Wall </a></li>
+              <li ><a href="bulwark-cleaning-utility.html">Bulwark   Cleaning Utility</a></li>
+              <li ><a href="all-products.html"> Bulwark  All Products</a></li>
+            </ul>
+          </li>
+          <li > <a href="download.html">Download </a> </li>
+          <li><a href="about.html"  > About </a> </li>
+          <li ><a href="support.html" >Support</a></li>
+          <!--   <li><a href="my-account.html" >My Account</a></li>
+          <li><a href="sign-in.html" ><span class="glyphicon glyphicon-user"></span> Sign In</a></li>
+          <li class="cart-icon"><a href="#"    class="dropdown-toggle" data-toggle="dropdown"  data-delay="0" data-close-others="false" ><span class="glyphicon glyphicon-shopping-cart shopping-cart"><span class="badge">0</span></span> </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+              <li>
+                <div class="my-booking">
+                  <div class="booking1">
+                    <ul>
+                      <li>
+                        <div class="col-lg-3"> <img src="img/Bulwark-lab-Privacy Wall Box.png" class="img-responsive" alt="" /> </div>
+                        <div class="col-lg-9">
+                          <p>Bulwark Antivirus</p>
+                          <p><span class="clr3">INR 1,616.23</span></p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="col-lg-3"> <img src="img/Bulwark-lab-Privacy Wall Box.png" class="img-responsive" alt="" /> </div>
+                        <div class="col-lg-9">
+                          <p>Bulwark Antivirus</p>
+                          <p><span class="clr3">INR 1,616.23</span></p>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="row pop-btm"  >
+                      <div class=" col-lg-12"><a href="view-cart.html"> Check Out</a></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- End-header-->
+
+<div class="banner-bg1">
+  <div class="jumbotron">
+    <div class="container">
+      <div class="col-lg-6 col-md-6">
+        <div class="antivirus-banner-left"> <img src="img/box-4s.png"  class="img-responsive" alt="" /></div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="antivirus-banner-right">
+          <div class=" ">
+            <h1 class="clr1"> Bulwark  Privacy Wall </h1>
+            <p>Secure your identity and lets you enjoy your privacy!</p>
+            <!--       
+          <a href="#" type="button" class="btn btn-primary btn-clr1"   >Free Trial</a>-->
+            <p><a type="button" class="btn btn-primary btn-clr1" data-toggle="modal" data-target="#myModal">Download</a> 
+              
+              <!-- <button class="btn btn-primary  btn-clr1" href="#" role="button"><span class="glyphicon glyphicon-shopping-cart"></span>  Buy 	Now</button>--></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+
+<div class="pop-privacy">
+  <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1 class="modal-title"> Bulwark <span class="clr1">Privacy Wall</span> </h1>
+          <p>Secure your identity and lets you enjoy <br>
+            your privacy !</p>
+        </div>
+        <div class="modal-body">
+          <div class=" col-lg-6">
+            <p> <img src="img/Bulwark-lab-Privacy Wall Box.png" alt="" /> </p>
+          </div>
+          <div class=" col-lg-6"> <a href="#" target="_blank" class="btn btn-default">Annual version</a> <a href="#" target="_blank" class="btn btn-default">Lifetime version</a> </div>
+        </div>
+        <div class="modal-footer"> </div>
+      </div>
+      <!-- /.modal-content --> 
+    </div>
+    <!-- /.modal-dialog --> 
+  </div>
+  <!-- /.modal --> 
+</div>
+<section class="featured">
+  <div class="container">
+    <h1> Key   Features</h1>
+    <div class=" col-lg-3 col-md-3" >
+      <div class="thumbnail"> <img src="img/p1.png" alt="" />
+        <div class="caption">
+          <h3>Don't leave tracks behind</h3>
+          <p>Leave no traces of your private online activity on the Web and your computer or laptop.</p>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-3 col-md-3" >
+      <div class="thumbnail"> <img src="img/p2.png" alt="" />
+        <div class="caption">
+          <h3>Guard against internet fraud </h3>
+          <p>Prevent phishing and identity theft by stopping hackers, scammers and fraudsters dead in their tracks</p>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-3 col-md-3" >
+      <div class="thumbnail"> <img src="img/p3.png" alt="" />
+        <div class="caption">
+          <h3>Protect your personal information</h3>
+          <p>Sleep better at night knowing that your PC is safer from intruders and unwelcome visitors</p>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-3 col-md-3" >
+      <div class="thumbnail"> <img src="img/p4.png" alt="" />
+        <div class="caption">
+          <h3>Stop advertisers from prying</h3>
+          <p>Automatically delete cookies that advertisers place on your PC to learn about your habits and behaviours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--end features-->
+
+<section class="anti1">
+  <div class="container">
+    <div class="col-lg-6 col-md-6 ">
+      <div class="portetct-left">
+        <h1>What More</h1>
+        <h2> Will You Get</h2>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <div class="portetct-right">
+        <li> Sandbox </li>
+        <li> Protect your profiles </li>
+        <li> Erase usernames & passwords </li>
+        <li> Scan for threats </li>
+        <li> Real-time protection </li>
+        <li> Delete cookies </li>
+        <li> Scheduled Cleaning</li>
+        <li>Clean or replace your browser history</li>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--end overview-->
+
+<section class="featured2">
+  <div class="container">
+    <h1>Others Product</h1>
+    <div class=" col-lg-4 col-md-4" >
+      <div class="thumbnail"> <a href="bulwark-antivirus.html" > <img src="img/Bulwark-lab-Antivirus Box.png" alt="" /></a>
+        <div class="caption">
+          <h3 ><a href="bulwark-antivirus.html" class="clr3">Bulwark Antivirus</a></h3>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-4 col-md-4" >
+      <div class="thumbnail">  <a href="bulwark-anti-malware.html"  > <img src="img/Bulwark-lab-malware-b.png" alt="" /></a>
+        <div class="caption">
+          <h3 > <a href="bulwark-anti-malware.html" class="clr2">Bulwark Anti-Malware </a></h3>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-4 col-md-4" >
+      <div class="thumbnail"> <a href="bulwark-privacy-wall.html" > <img src="img/Bulwark-lab-Cleaning Utility Box.png" alt="" /></a>
+        <div class="caption">
+          <h3 ><a href="bulwark-privacy-wall.html" class="clr4"> Bulwark Cleaning Utility </a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--end over-product-->
+
+<section class="social">
+  <h1>Stay Connected With Us</h1>
+  <p>Follow us for all the latest news, tips and updates.</p>
+  
+  <!-- <img src="img/facebook.png" alt=""/>
+  <img src="img/icon_twitter_k_25x20.png" alt=""/> 
+  <img src="img/icon_google-plus_28x24.png" alt=""/>
+  <img src="img/in.png" alt=""/>-->
+  
+  <div class="social-in"> <a href="https://www.facebook.com/BulwarkLabs/"  target="_blank" ><em class="so1"></em></a> <a href="https://twitter.com/BulwarkLabs" target="_blank"><em class="so2"></em></a> <a href="https://plus.google.com/107324416046549565991"><em class="so3"></em></a> <a href="javascript:void(0);" ><em class="so4"></em></a> </div>
+</section>
+
+<!-- End-banner-->
+
+<section class=" footer">
+  <div class="container">
+    <ul>
+      <li><a  role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >Products <img src="img/plus.png" alt="" /> </a></li>
+      <ul class="collapse drops" id="collapseExample" >
+        <p><a href="bulwark-antivirus.html"> Bulwark Antivirus</a></p>
+        <p> <a href="bulwark-privacy-wall.html">Bulwark  Privacy Wall</a></p>
+        <p> <a href="bulwark-cleaning-utility.html"> Bulwark Cleaning Utility</a></p>
+        <p> <a href="bulwark-anti-malware.html"> Bulwark Antimalware</a></p>
+        <p><a href="all-products.html">All Products</a></p>
+      </ul>
+      <li><a href="download.html">Downloads</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="eula.html " >EULA</a></li>
+    </ul>
+    <ul>
+      <li> <img src="img/logo2.png" class="img-responsive"  alt="" /></li>
+    </ul>
+    <div class="footer-bottom"> <a href="#"> Copyright © 2016 | Bulwark Labs.com All rights reserved. </a> </div>
+  </div>
+</section>
+
+<!-- js for bootstrap--> 
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-hover-dropdown.js"></script>
+<script>
+    // very simple to use!
+    $(document).ready(function() {
+      $('.js-activated').dropdownHover().dropdown();
+    });
+  </script>
+</body>
+</html>
